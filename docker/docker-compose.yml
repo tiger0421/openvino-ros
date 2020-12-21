@@ -1,7 +1,7 @@
 version: '2.3'
 services:
   vino_ros:
-    image: tiger0421/openvino-ros:latest
+    image: tiger0421/openvino-ros2:latest
     container_name: vino
     network_mode: "host"
     privileged: true
