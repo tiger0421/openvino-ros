@@ -53,3 +53,4 @@ RUN gpasswd -a ${DOCKER_USER} sudo \
 
 USER openvino
 RUN echo source /opt/ros/eloquent/setup.bash >> /home/openvino/.bashrc
+WORKDIR /home/openvino
