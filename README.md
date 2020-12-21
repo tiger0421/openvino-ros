@@ -3,7 +3,7 @@ This repository enables you to run semantic-segmentaion on ROS2 (eloquent).
 Also, you can use ROS1 because ros-bridgge is automatically run.
 
 ## Usage
-1. Run the docker image
+1. Run the docker image  
 Terminal A
 ```
 $ git clone https://github.com/tiger0421/openvino-ros.git
@@ -28,7 +28,7 @@ $ docker exec -it vino /bin/bash
 (openvino)$ ros2 run vino segmentation_image
 ```
 
-TerminalB
+  TerminalB
 ```
 $ docker exec -it roscore /bin/bash
 (in the container)
